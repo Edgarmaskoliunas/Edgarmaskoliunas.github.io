@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>X00140508 CA2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Nav -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-logo" href="index.html"><img src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>"	
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutme">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#education">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#workexp">Work Experience</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Contact Me button information-->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  	<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title center">Contact Details</h4>
+				<button type="button" class="close" data-dismiss="modal">×</button>
+			</div>
+			<div class="modal-body">
+				<p>Phone Number: 0851668363</p>
+				<p>Personal Email: stepzify@yahoo.com</p>
+				<p>School Email: X00140508@mytudublin.ie</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+			</div> 
+		</div>
+	</div>
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/background.png">
+				<div class="carousel-caption">
+					<h1 class="display-2">Edgaras Maskoliunas' Website</h1>
+					<button type="button" class="btn btn-outline-light btn-lg">
+						<a href="https://wetransfer.com/downloads/ea2d95252cc877d76ec843785bd1ba7020201217200128/ed3b543cb3acdf005dda4039557d5c8820201217200141/6337ec?utm_campaign=WT_email_tracking&utm_content=general&utm_medium=download_button&utm_source=notify_recipient_email" download="Edgarasmaskoliunas.docx">Download my CV</a>
+					</button>
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background2.png">
+			</div>
+			<div class="carousel-item">
+				<img src="img/background3.png">
+			</div>
+		</div>
+	</div>
+
+	<!--- Welcome -->
+	<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Welcome to Edgaras Maskoliunas' interactive curriculum vitae on this website you will find out about me as well as my past education, projects and work experience.</p>
+		</div>
+	</div>
+	</div>
+
+	<section id="aboutme">
+		<!--- About me -->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-lg-6">
+					<h2>About Me</h2>
+					<p>My name is Edgaras Maskoliunas and this is my interactive curriculum vitae.</p>
+					<p>I have developed numerous small programs and bigger projects in college in the time I’ve been there, I've used different languages such as Java, HTML, CSS and SQL. I’ve also worked in teams during my time in college on projects and assignments. I am looking for an entry-level position in your company into developing my skills further and getting experience.</p>
+					<p>The type of work that I would be interested in receiving would be IT based. I would like a job involving data as I'm a upcoming data analyst graduate.</p>
+				</div>
+				<div class="col-lg-6">
+					<img src="img/edgar.jpg" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+
+	<section id="projects">
+		<!--- Past Projects -->
+		<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-lg-6">
+				<h2>Past Projects</h2>
+				<p>The projects that I have completed previously are all inside of my Github account and are linked in the button below.</p>
+				<p>The project I completed was in second year which was a two man project involving the development of a distributed file system, where multiple users could transparently edit/modify remote files on a central server as if they were local files. Features included account authorization, creating multiples users with different powers, updating website, and tracking products sold.</p>
+				<p>My Github also showcases a few pieces of work that I've completed over the years in college from software programs to websites.</p>
+				<a href="https://github.com/Edgarmaskoliunas?tab=repositories" class="btn btn-primary"> Github </a> </a>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/desk.png" class="img-fluid">
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<hr class="my-4">
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+	
+	<!--- Grades Title -->
+	<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">
+				Grades
+			</h1>
+		</div>
+		<hr>
+	</div>
+	</div>
+
+	<hr>
+
+	<!--- Grades -->
+	<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h4 class="card-title">
+						First Year
+					</h4>
+					<p>
+						<p>Software Development 1 - B</p>
+					</p>
+					<p>
+						<p>Computer Architecture - B</p>
+					</p>
+					<p>
+						<p>Fundamentals of Interface & Web - B+</p>
+					</p>
+					<p>
+						<p>Business & Information Sys - B-</p>
+					</p>
+					<p>
+						<p>Discrete Maths 1 - C</p>
+					</p>
+					<p>
+						<p>Learning to Learn - B+</p>
+					</p>
+					<p>
+						<p>Database Fundamentals - D</p>
+					</p>
+					<p>
+						<p>Operating System Fundamentals - C+</p>
+					</p>
+					<p>
+						<p>Software Development 2 - D</p>
+					</p>
+					<p>
+						<p>Social Media Communications - B</p>
+					</p>
+					<p>
+						<p>Object Oriented System Analysis - C+</p>
+					</p>
+					<p>
+						<p>Statistics - B</p>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h4 class="card-title">
+						Second Year
+					</h4>
+					<p>
+						<p>Software Development 3 - C</p>
+					</p>
+					<p>
+						<p>Software Quality Assurance & Testing - B+</p>
+					</p>
+					<p>
+						<p>Network Fundamentals - C+</p>
+					</p>
+					<p>
+						<p>Advanced Database Technologies - D</p>
+					</p>
+					<p>
+						<p>Discrete Maths 2 - B+</p>
+					</p>
+					<p>
+						<p>Client side Web Development - C+</p>
+					</p>
+					<p>
+						<p>Information Security - C</p>
+					</p>
+					<p>
+						<p>Routing & Switching - B-</p>
+					</p>
+					<p>
+						<p>Database Admin & Analysis - D</p>
+					</p>
+					<p>
+						<p>Management Science - B+</p>
+					</p>
+					<p>
+						<p>Software Development 4 - C</p>
+					</p>
+					<p>
+						<p>Project - C</p>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h4 class="card-title">
+						Third Year
+					</h4>
+					<p>
+						<p>Cloud Services & Distribution Computing - C</p>
+					</p>
+					<p>
+						<p>Big Data Technologies - C+</p>
+					</p>
+					<p>
+						<p>Data Structures & Algorithm - C</p>
+					</p>
+					<p>
+						<p>Data Analytics - D</p>
+					</p>
+					<p>
+						<p>Operating Systems - C</p>
+					</p>
+					<p>
+						<p>Server-side Web Development - C</p>
+					</p>
+					<p>
+						<p>Experiential Learning - PS</p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	</div>
+
+	<hr>
+
+	<section id="education"></section>
+
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">
+						Education
+					</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+
+		<!--- Education -->
+		<div class="container-fluid padding">
+			<div class="row text-center padding">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-book"></i>
+					<h3>Leaving Certificate in St.Aidans</h3>
+					<p>2011 - 2016</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<i class="fas fa-book"></i>
+					<h3>Greenhills College of further Education</h3>
+					<p>2016 - 2017</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<i class="fas fa-book"></i>
+					<h3>BSc in Computing with Data Analytics in Technology University Dublin Tallaght Campus</h3>
+					<p>2017 - Present</p>
+				</div>
+			</div>
+			<hr class="my-4">
+		</div>
+	</section>
+
+	<section id="workexp">
+		<!--- Work Experience Title -->
+		<div class="container-fluid padding">
+			<div class="row welcome text-center">
+				<div class="col-12">
+					<h1 class="display-4">
+						Work Experience
+					</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+			
+		<hr>
+
+		<!--- Work Experience -->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">
+								IT Internship - BWG Foods <p>(February - August 2020)</p>
+							</h4>
+							<p>
+								<p>Main responsibilities of working at BWG Foods: Making graphs based on tickets solved a week, reimaging windows, downloading full files, answering tickets on Zendesk, adding images to website & Creating excel sheets.</p>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">
+								Warehouse Operative - Uniphar <p>(January - September 2019)</p>
+							</h4>
+							<p>
+								<p>Main responsibilities of working at Uniphar: Stacking totes on pallets, picking products into storage totes, Stacking products and Despatching totes.</p>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">
+								Work Experience - Miele <p>(February - March 2016)</p>
+							</h4>
+							<p>
+								<p>Main responsibilities of working at Miele: Updating the website with certain meta tags to increase ranking on the google pages to bring the page to top of the list when a user googles a specific word.</p>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--- Hobbies & Interests -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-lg-6">
+				<h2>Hobbies & Interests</h2>
+				<p>My Hobbies and interests are going to the gym, playing team sports such as football and basketball and reading books.</p>
+				<p>I go the gym everyday to workout and play football atleast three times a week.</p>
+				<p>I also enjoy reading in my free time, my favourite book is Lord of the Rings by J.R.R. Tolkien.</p>
+				<br>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/sport.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+
+	<!--- Socials -->
+	<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Socials</h2>
+			<hr>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.linkedin.com/in/edgar-maskoliunas-08176615b/"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/Edgarmaskoliunas"><i class="fab fa-github"></i></a>
+		</div>
+	</div>
+	</div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/logo.png">
+				<hr class="light">
+				<p>0851668363</p>
+				<p>stepzify@yahoo.com</p>
+				<p>X00140508@mytudublin.ie</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; EdgarasMaskoliunasCV.com</h5>
+			</div>
+		</div>		
+		</div>
+	</footer>
+</body>
+</html>
